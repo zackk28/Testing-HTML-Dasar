@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Lengkap</title>
+  </head>
+  <body>
+    <h3>Contoh Form Lengkap</h3>
+
+    <form action="#" method="post">
+      <!-- Text -->
+      <label>
+        Nama:
+        <input type="text" name="nama" placeholder="Masukkan nama" required />
+      </label>
+      <br /><br />
+
+      <!-- Email -->
+      <label>
+        Email:
+        <input type="email" name="email" placeholder="Masukkan email" />
+      </label>
+      <br /><br />
+
+      <!-- Password -->
+      <label>
+        Password:
+        <input
+          type="password"
+          name="password"
+          placeholder="Masukkan password"
+        />
+      </label>
+      <br /><br />
+
+      <!-- Number -->
+      <label>
+        Umur:
+        <input type="number" name="umur" min="1" max="100" />
+      </label>
+      <br /><br />
+
+      <!-- Radio -->
+      <label>
+        Jenis Kelamin:
+        <input type="radio" name="jk" value="laki-laki" /> Laki-laki
+        <input type="radio" name="jk" value="perempuan" /> Perempuan
+      </label>
+      <br /><br />
+
+      <!-- Checkbox -->
+      <label>
+        Hobi:
+        <input type="checkbox" name="hobi" value="membaca" /> Membaca
+        <input type="checkbox" name="hobi" value="traveling" /> Traveling
+        <input type="checkbox" name="hobi" value="coding" /> Coding
+      </label>
+      <br /><br />
+
+      <!-- Date -->
+      <label>
+        Tanggal Lahir:
+        <input type="date" name="tgl_lahir" />
+      </label>
+      <br /><br />
+
+      <!-- Time -->
+      <label>
+        Waktu Janji:
+        <input type="time" name="waktu" />
+      </label>
+      <br /><br />
+
+      <!-- Datetime Local -->
+      <label>
+        Tanggal & Waktu Lengkap:
+        <input type="datetime-local" name="jadwal" />
+      </label>
+      <br /><br />
+
+      <!-- Month -->
+      <label>
+        Bulan Favorit:
+        <input type="month" name="bulan" />
+      </label>
+      <br /><br />
+
+      <!-- Week -->
+      <label>
+        Minggu ke-:
+        <input type="week" name="minggu" />
+      </label>
+      <br /><br />
+
+      <!-- Color -->
+      <label>
+        Pilih Warna:
+        <input type="color" name="warna" />
+      </label>
+      <br /><br />
+
+      <!-- File -->
+      <label>
+        Upload File:
+        <input type="file" name="file_upload" />
+      </label>
+      <br /><br />
+
+      <!-- Range -->
+      <label>
+        Nilai Range:
+        <input type="range" name="range" min="0" max="100" />
+      </label>
+      <br /><br />
+
+      <!-- Tel -->
+      <label>
+        Nomor HP:
+        <input type="tel" name="telp" placeholder="08xxxxxxxxxx" />
+      </label>
+      <br /><br />
+
+      <!-- URL -->
+      <label>
+        Website:
+        <input type="url" name="website" placeholder="https://contoh.com" />
+      </label>
+      <br /><br />
+
+      <!-- Search -->
+      <label>
+        Pencarian:
+        <input type="search" name="search" placeholder="Cari sesuatu..." />
+      </label>
+      <br /><br />
+
+      <!-- Select -->
+      <label>
+        Kota:
+        <select name="kota">
+          <option value="padang">Padang</option>
+          <option value="bukittinggi">Bukittinggi</option>
+          <option value="pariaman">Pariaman</option>
+        </select>
+      </label>
+      <br /><br />
+
+      <!-- Datalist -->
+      <label>
+        Browser Favorit:
+        <input list="browsers" name="browser" />
+        <datalist id="browsers">
+          <option value="Chrome"></option>
+          <option value="Firefox"></option>
+          <option value="Safari"></option>
+          <option value="Edge"></option>
+          <option value="Opera"></option>
+        </datalist>
+      </label>
+      <br /><br />
+
+      <!-- Textarea -->
+      <label>
+        Pesan:
+        <textarea name="pesan" rows="4" cols="30"></textarea>
+      </label>
+      <br /><br />
+
+      <!-- Progress -->
+      <label>
+        Progress Belajar:
+        <progress value="70" max="100"></progress>
+      </label>
+      <br /><br />
+
+      <!-- Meter -->
+      <label>
+        Tingkat Baterai:
+        <meter value="0.6">60%</meter>
+      </label>
+      <br /><br />
+
+      <!-- Tombol Submit, Reset -->
+      <input type="submit" value="Kirim" />
+      <input type="reset" value="Reset" />
+    </form>
+
+    <hr />
+    <button><a href="index.html">Kembali ke Menu</a></button>
+  </body>
+</html>
